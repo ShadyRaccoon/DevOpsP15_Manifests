@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: myapp.local
+    - host: myapp.test   # change from myapp.local
       http:
         paths:
           - path: /
