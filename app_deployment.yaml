@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: shadyraccoon/devopsp15:44
-          #image: shadyraccoon/devopsp15:44
+          image: shadyraccoon/devopsp15:45
+          #image: shadyraccoon/devopsp15:45
           ports:
             - containerPort: 8080
           env:
