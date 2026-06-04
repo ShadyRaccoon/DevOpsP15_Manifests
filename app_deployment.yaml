@@ -4,6 +4,7 @@ metadata:
   name: app
   namespace: default
 spec:
+  progressDeadlineSeconds: 60
   replicas: 3
   selector:
     matchLabels:
